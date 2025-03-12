@@ -6,11 +6,11 @@ Set Up the Environment: Install the required Conda environment using the provide
 conda env create -f env_clusgym.yml
 
 - For simulating a cluster of Nickel (Ni) 13 atoms
-- 
-eleNames = ['Ni']
+  
+  eleNames = ['Ni']
 
-eleNums = [13]
+  eleNums = [13]
 
 Execute the script using Python.
 
-python gym_trpo_single.py   
+  python gym_trpo_single.py   
